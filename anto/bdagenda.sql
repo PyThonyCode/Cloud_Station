@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS distrito;
 CREATE TABLE distrito (
     id INT NOT NULL,
     distrito_nombre VARCHAR(50) NOT NULL,
-    PRIMARY KEY (id)
+    CONSTRAINT distrito_id PRIMARY KEY (id)
 );
 
 CREATE TABLE agenda (
